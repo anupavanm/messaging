@@ -33,6 +33,7 @@ namespace Portal.Controllers
         /// <returns></returns>
         public ActionResult Contact2()
         {
+            //Added from Dev Branch for test
             ViewBag.Message = "Your contact page.";
 
             return View();
