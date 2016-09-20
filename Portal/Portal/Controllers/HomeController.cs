@@ -26,5 +26,16 @@ namespace Portal.Controllers
 
             return View();
         }
+
+        /// <summary>
+        /// test method for testing Git
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Contact2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
